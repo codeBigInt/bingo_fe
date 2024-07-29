@@ -6,6 +6,7 @@ import RBInputDocs from "./components/input/inputDocs";
 import ForgotPasswordForm from "./components/forms/forgotPasswordForm/forgotPassword";
 import { ChooseAvatarField } from "./components/chooseAvatarField";
 import { useState } from "react";
+import Slider from "./components/slider";
 
 export default function Home() {
   return (
@@ -13,6 +14,10 @@ export default function Home() {
       <LandingPageNavbar />
       <OtpComponent email="elliotlucky509@gmail.com" />
       <ForgotPasswordForm />
+      <Slider className="w-[50%] self-center" mode="volume" />
+      <Slider className="w-[50%] self-center" mode="level" />
+
+
     </main>
   );
 }
