@@ -10,7 +10,7 @@ import Slider from "./components/slider";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-[#F7EEE7] w-full flex flex-col align-center">
+    <main className="min-h-screen bg-[#F7EEE7] w-full flex px-6 flex-col align-center">
       <LandingPageNavbar />
       <OtpComponent email="elliotlucky509@gmail.com" />
       <ForgotPasswordForm />
