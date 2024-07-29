@@ -16,7 +16,7 @@ export default function Home() {
         <OtpComponent email="elliotlucky509@gmail.com" />
         <ForgotPasswordForm />
         <Slider className="md:w-[50%] w-[90%] self-center" mode="volume" />
-        <Slider className="md:w-[50%] w-[90%] self-center" mode="level" />
+        <Slider className="md:w-[50%] w-[90%] self-center mb-4" mode="level" />
       </div>
     </main>
   );
