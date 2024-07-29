@@ -2,9 +2,10 @@ import React from 'react'
 import Image from 'next/image'
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 import { Skeleton } from '@/components/ui/skeleton'
-import { ScrollArea } from '@/components/ui/scroll-area'
+// import { ScrollArea } from '@/components/ui/scroll-area'
 import { cn } from '@/lib/utils'
 import { Button } from '@/components/ui/button'
+import { ScrollArea } from '@radix-ui/react-scroll-area'
 
 const avatarsUrl = [
     "https://s3-alpha-sig.figma.com/img/40fe/e60b/a7bf73eaffd830005b1726220e8b6ecc?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kXOUcUQZoQuZQRMhcTorv-CZCTY8Zw5VcG0MDJxWHA7XS-obzQor87eVEqSGCj9bCiu-PlO5MKeK7QR31v9x4Xo6Sz2EYQQ0WH0Y4AsDsv21JsR~15cZUCjQ~CtSZU5LShpwxdFT~IEqg7NmBU94OsgUIX5uaKV4OkQb5B-Q67C32e6QdRqDD6u3H~yRkXVkRsimn6SCGOjJRqrhynqiG4hrs5zZ6JqqPylJOMxINLa01iuRPcqDSwaVGROULdcqc8ivDO1YCy5lle~Gmp-wYrTAOgth4fAraWdV8BDu~vFDHAC6q5emAWWD~6R7KssoTCoADsfdZnShydZhFW3ieg",

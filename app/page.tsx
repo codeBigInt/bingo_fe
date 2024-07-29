@@ -1,8 +1,11 @@
+'use client'
 import Image from "next/image";
 import OtpComponent from "./components/otp/otpcomponent";
 import LandingPageNavbar from "./components/navbars/custom-navbars/LandingPageNavbar";
 import RBInputDocs from "./components/input/inputDocs";
 import ForgotPasswordForm from "./components/forms/forgotPasswordForm/forgotPassword";
+import { ChooseAvatarField } from "./components/chooseAvatarField";
+import { useState } from "react";
 
 export default function Home() {
   return (
