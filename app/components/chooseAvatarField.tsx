@@ -52,7 +52,7 @@ export function ChooseAvatarField({ setAvatarUrl }: AvatarChooseFieldProps) {
                         avatarsUrl.map((avatarUrl, index) => (
                             <div
                                 onClick={() => handleAvatarClick(avatarUrl, index)}
-                                key={avatarUrl + index}
+                                key={index}
                                 className={cn('relative cursor-pointer rounded-md h-[107px] w-[107px]',
                                 )}>
                                 <Image
