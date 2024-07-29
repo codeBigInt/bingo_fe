@@ -10,12 +10,14 @@ import Slider from "./components/slider";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-[#F7EEE7] w-full flex px-6 flex-col align-center">
+    <main className="min-h-screen bg-[#F7EEE7] w-full flex flex-col align-center">
       <LandingPageNavbar />
-      <OtpComponent email="elliotlucky509@gmail.com" />
-      <ForgotPasswordForm />
-      <Slider className="md:w-[50%] w-[90%] self-center" mode="volume" />
-      <Slider className="md:w-[50%] w-[90%] self-center" mode="level" />
+      <div className="p-6 w-full">
+        <OtpComponent email="elliotlucky509@gmail.com" />
+        <ForgotPasswordForm />
+        <Slider className="md:w-[50%] w-[90%] self-center" mode="volume" />
+        <Slider className="md:w-[50%] w-[90%] self-center" mode="level" />
+      </div>
     </main>
   );
 }
